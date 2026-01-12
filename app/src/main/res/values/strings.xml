@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SmartMed</string>
+    <string name="title_home">Home</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_history">History</string>
+    <string name="title_profil">Profil</string>
+
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Mau lihat kisah cerita orang? mau bercerita? Storyapps saja</string>
+    <string name="title_welcome_page">Selamat datang di Storyapps</string>
+    <string name="title_signup_page">Isi data diri di bawah</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Sudah siap untuk lihat cerita?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat membaca</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="uploaded_image_desc">Uploaded Image</string>
+    <string name="add_story">add story</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="article_image">"Gambar artikel"</string>
+    <string name="account_icon">"My Account"</string>
+    <string name="api_logo">"icon api"</string>
+
+
+</resources>

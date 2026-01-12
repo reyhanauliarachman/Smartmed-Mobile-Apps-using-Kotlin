@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "890958962021",
+    "project_id": "braintumorapp-76ddb",
+    "storage_bucket": "braintumorapp-76ddb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890958962021:android:e9e0cfe5ae9e21c841958c",
+        "android_client_info": {
+          "package_name": "com.bangkit.braintumor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlinzITaIOzKfUHWx5Yk7HRgqtg_MELPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

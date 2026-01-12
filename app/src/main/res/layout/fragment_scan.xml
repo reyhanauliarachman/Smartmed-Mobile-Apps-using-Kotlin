@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white_300"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progressIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/previewImageView"
+                android:layout_width="188dp"
+                android:layout_height="330dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                app:srcCompat="@drawable/ic_capture_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <Button
+                    android:id="@+id/galleryButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/gallery"
+                    app:cornerRadius = "30dp"/>
+
+                <Button
+                    android:id="@+id/cameraButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/camera"
+                    app:cornerRadius = "30dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/scanButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Scan"
+                app:cornerRadius = "30dp"/>
+
+            <EditText
+                android:id="@+id/scan_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/ic_person_outline_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="25dp"
+                android:hint="masukkan nama pasien"
+                android:padding="8dp"
+                android:textColor="@color/grey_700" />
+
+            <EditText
+                android:id="@+id/scan_id"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/ic_identity_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="25dp"
+                android:hint="masukkan ID pasien"
+                android:padding="8dp"
+                android:textColor="@color/grey_700" />
+
+            <EditText
+                android:id="@+id/scan_age"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/ic_age_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="25dp"
+                android:hint="masukkan umur pasien"
+                android:padding="8dp"
+                android:textColor="@color/grey_700" />
+
+            <EditText
+                android:id="@+id/scan_gender"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/ic_gender_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="25dp"
+                android:hint="masukkan jenis kelamin pasien"
+                android:padding="8dp"
+                android:textColor="@color/grey_700" />
+
+            <EditText
+                android:id="@+id/scan_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/ic_mail_outline_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="25dp"
+                android:hint="masukkan email pasien"
+                android:padding="8dp"
+                android:textColor="@color/grey_700" />
+
+            <EditText
+                android:id="@+id/scan_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/ic_location_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="25dp"
+                android:hint="masukkan alamat pasien"
+                android:padding="8dp"
+                android:textColor="@color/grey_700" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
