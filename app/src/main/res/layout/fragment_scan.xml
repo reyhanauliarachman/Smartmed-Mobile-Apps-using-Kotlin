@@ -10,7 +10,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
         android:paddingTop="40dp"
         android:paddingBottom="40dp">
 
@@ -18,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8dp">
+            android:padding="16dp">
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/progressIndicator"
@@ -48,7 +49,8 @@
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
                     android:text="@string/gallery"
-                    app:cornerRadius = "30dp"/>
+                    android:textAllCaps="false"
+                    app:cornerRadius = "20dp"/>
 
                 <Button
                     android:id="@+id/cameraButton"
@@ -56,27 +58,31 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/camera"
-                    app:cornerRadius = "30dp"/>
+                    android:textAllCaps="false"
+                    app:cornerRadius = "20dp"/>
             </LinearLayout>
 
             <Button
                 android:id="@+id/scanButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
                 android:text="Scan"
-                app:cornerRadius = "30dp"/>
+                android:textAllCaps="false"
+                android:backgroundTint="@color/pink"
+                app:cornerRadius = "20dp"/>
 
             <EditText
                 android:id="@+id/scan_name"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/pink_border"
                 android:drawableLeft="@drawable/ic_person_outline_24"
                 android:drawablePadding="8dp"
                 android:paddingStart="25dp"
-                android:hint="masukkan nama pasien"
+                android:hint="enter patient name"
                 android:padding="8dp"
                 android:textColor="@color/grey_700" />
 
@@ -85,11 +91,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/pink_border"
                 android:drawableLeft="@drawable/ic_identity_24"
                 android:drawablePadding="8dp"
                 android:paddingStart="25dp"
-                android:hint="masukkan ID pasien"
+                android:hint="enter patient ID"
                 android:padding="8dp"
                 android:textColor="@color/grey_700" />
 
@@ -98,11 +104,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/pink_border"
                 android:drawableLeft="@drawable/ic_age_24"
                 android:drawablePadding="8dp"
                 android:paddingStart="25dp"
-                android:hint="masukkan umur pasien"
+                android:hint="enter patient age"
                 android:padding="8dp"
                 android:textColor="@color/grey_700" />
 
@@ -111,11 +117,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/pink_border"
                 android:drawableLeft="@drawable/ic_gender_24"
                 android:drawablePadding="8dp"
                 android:paddingStart="25dp"
-                android:hint="masukkan jenis kelamin pasien"
+                android:hint="enter patient gender"
                 android:padding="8dp"
                 android:textColor="@color/grey_700" />
 
@@ -124,11 +130,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/pink_border"
                 android:drawableLeft="@drawable/ic_mail_outline_24"
                 android:drawablePadding="8dp"
                 android:paddingStart="25dp"
-                android:hint="masukkan email pasien"
+                android:hint="enter patient email"
                 android:padding="8dp"
                 android:textColor="@color/grey_700" />
 
@@ -137,11 +143,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/pink_border"
                 android:drawableLeft="@drawable/ic_location_24"
                 android:drawablePadding="8dp"
                 android:paddingStart="25dp"
-                android:hint="masukkan alamat pasien"
+                android:hint="enter patient address"
                 android:padding="8dp"
                 android:textColor="@color/grey_700" />
         </LinearLayout>

@@ -13,6 +13,8 @@
     <color name="blue_500">#B33C94E5</color>
     <color name="grey_300">#a6a6a6</color>
     <color name="pink">#ff66c4</color>
+    <color name="gray">#8A8A8A</color>
+    <color name="pinksoft">#927183</color>
 
 
 </resources>

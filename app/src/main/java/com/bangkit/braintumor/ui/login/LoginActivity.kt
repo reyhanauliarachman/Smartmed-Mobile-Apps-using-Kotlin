@@ -1,5 +1,3 @@
-//LoginActivity
-
 package com.bangkit.braintumor.ui.login
 
 import android.content.Intent
@@ -13,6 +11,8 @@ import com.bangkit.braintumor.MainActivity
 import com.bangkit.braintumor.R
 import com.bangkit.braintumor.ui.signup.SignupActivity
 import com.google.firebase.auth.FirebaseAuth
+import androidx.core.view.WindowCompat
+
 
 class LoginActivity : AppCompatActivity() {
 
@@ -20,6 +20,9 @@ class LoginActivity : AppCompatActivity() {
     private var isPasswordVisible = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+        window.navigationBarColor = android.graphics.Color.TRANSPARENT
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 

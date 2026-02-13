@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/login"
     android:orientation="vertical"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.login.LoginActivity"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,7 +23,7 @@
             android:padding="20dp">
 
             <EditText
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:id="@+id/login_email"
                 android:layout_marginTop="30dp"
@@ -36,7 +37,7 @@
                 android:textColorHint="@color/grey_300"/>
 
             <LinearLayout
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal"
@@ -62,8 +63,8 @@
 
                 <ImageView
                     android:id="@+id/password_toggle"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_gravity="center_vertical"
                     android:padding="8dp"
                     android:src="@drawable/ic_visibility_on"
@@ -74,7 +75,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -87,7 +88,7 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:padding="8dp"
-                    android:text="Lupa password?"
+                    android:text="fotgot password?"
                     android:textColor="@color/blue"
                     android:textSize="16sp"
                     android:gravity="end"
@@ -96,10 +97,13 @@
             </LinearLayout>
 
             <Button
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="50dp"
                 android:text="Login"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/pink"
+                android:textColor="@color/white"
                 android:id="@+id/login_button"
                 android:textSize="18sp"
                 app:cornerRadius="30dp"/>
